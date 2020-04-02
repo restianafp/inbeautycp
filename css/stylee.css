@@ -1,0 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.carousel-inner img{
+		  width: 100%;
+		  height: 100%;
+}
+#about{
+	min-height:100vh;
+}
+
+.div-gallery-feed{
+	margin-bottom: 50px;
+}
+
+.title-gallery-feed{
+	 text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gallery-feed img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.gallery-feed img:hover {
+	filter:none;
+	-webkit-filter:grayscale(0);
+}
+
+.center{
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.more-gallery-feed, .read-more , .btn-primary{
+    color: #666;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid #666;
+    width: 200px;
+	background-color:rgba(116, 128, 0, 0.1);
+}
+
+.more-gallery-feed:hover, .read-more:hover, .btn-primary:hover {
+	color: #000;
+	border: 2px solid #000;
+	text-decoration: none;
+	background-color:white;
+}
+.harga{
+	border: 3px solid #333;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    line-height: normal;
+    float: right;
+}
+.div-articles{
+	margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.div-single-articles{
+	margin-bottom: 50px;
+}
+
+.div-single-articles img{
+	margin-bottom: 30px;
+}
+
+.title-article{
+	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 28px;
+}
